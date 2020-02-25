@@ -79,7 +79,7 @@ class ArticlesController < ApplicationController
       begin
       @article = Article.find(params[:id])
       rescue ActiveRecord::RecordNotFound
-        flash[:alert] = "This is not the article you are looking for"
+        flash[:alert] = "This is not the article you are looking for ..."
         respond_to do |format|
           format.html {
             redirect_to articles_path
