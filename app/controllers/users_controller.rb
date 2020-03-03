@@ -12,8 +12,6 @@ class UsersController < ApplicationController
   def show
   end
 
-
-
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   # DELETE /users/1
